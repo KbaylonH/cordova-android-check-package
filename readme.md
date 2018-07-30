@@ -2,7 +2,7 @@
 
 Plugin for the [Cordova](https://cordova.apache.org/) framework to check if an application is installed on Android.
 
-## Instalation
+## Installation
 The plugin can be installed via [Cordova-CLI](https://cordova.apache.org/docs/es/latest/guide/cli/) and is publicly available on [npm](https://www.npmjs.com/package/cordova-android-check-package).
 
 Execute from the projects root folder:
