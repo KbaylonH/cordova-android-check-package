@@ -1,25 +1,25 @@
-Cordova Android Check Package Plugin
+## Cordova Android Check Package Plugin
 
-Plugin for the [Cordova][cordova] framework to check if an application is installed on Android.
+Plugin for the [Cordova](https://cordova.apache.org/) framework to check if an application is installed on Android.
 
 ## Instalation
-The plugin can be installed via [Cordova-CLI][CLI] and is publicly available on [NPM][npm].
+The plugin can be installed via [Cordova-CLI](https://cordova.apache.org/docs/es/latest/guide/cli/) and is publicly available on [npm](https://www.npmjs.com/package/cordova-android-check-package).
 
 Execute from the projects root folder:
 
-  $ cordova plugin add cordova-android-check-package
+    $ cordova plugin add cordova-android-check-package
 
 Or install the latest head version:
   
-  $ cordova plugin add https://github.com/KbaylonH/cordova-android-check-package.git
+    $ cordova plugin add https://github.com/KbaylonH/cordova-android-check-package.git
 
 For Ionic Project
 
-  $ ionic cordova plugin add cordova-android-check-package
+    $ ionic cordova plugin add cordova-android-check-package
 
 Or
 
-  $ ionic cordova plugin add https://github.com/KbaylonH/cordova-android-check-package.git
+    $ ionic cordova plugin add https://github.com/KbaylonH/cordova-android-check-package.git
 
 ## Usage
 
@@ -35,6 +35,6 @@ window.CheckPackagePlugin.checkApp('com.whatsapp', function(){
 
 ## License
 
-This software is released under the [ISC License][isc_license]
+This software is released under the [ISC License](https://www.isc.org/downloads/software-support-policy/isc-license/)
 
 Made by **@KbaylonH**
