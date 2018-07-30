@@ -7,5 +7,10 @@
       "android"
     ]
   },
-  "description": "A cordova plugin that allows check if an application is installed on Android"
+  "description": "A cordova plugin that allows check if an application is installed on Android",
+  "keywords": [
+    "cordova", "android"
+  ],
+  "author": "Kevin W. Baylón Huerta <kbaylonh@outlook.com> (http://www.kbaylonh.com)",
+  "license": "ISC"
 }
