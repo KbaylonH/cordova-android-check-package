@@ -1,6 +1,6 @@
 {
   "name": "cordova-android-check-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "cordova": {
     "id": "cordova-android-check-package",
     "platforms": [
@@ -12,5 +12,6 @@
     "cordova", "android"
   ],
   "author": "Kevin W. Baylón Huerta <kbaylonh@outlook.com> (http://www.kbaylonh.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {"type":"git", "url": "https://github.com/KbaylonH/cordova-android-check-package.git"}
 }

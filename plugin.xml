@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-android-check-package"
-    version="1.0.0">
+    version="1.0.1">
     <name>Cordova Android Check Package</name>
     <description>A cordova plugin that allows check if an application is installed on Android</description>
     <license>BSD-3</license>
