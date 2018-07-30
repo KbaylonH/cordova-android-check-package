@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-android-check-package"
+    version="1.0.0">
+    <name>Cordova Android Check Package</name>
+    <description>A cordova plugin that allows check if an application is installed on Android</description>
+    <license>BSD-3</license>
+    <keywords></keywords>
+    <repo>https://github.com/KbaylonH/cordova-android-check-package.git</repo>
+    <platform name="android">
+      <js-module src="www/plugin.js" name="plugin">
+        <runs/>
+        <clobbers target="CheckPackagePlugin" />
+      </js-module>
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="CheckPackagePlugin">
+          <param name="android-package" value="com.kbaylonh.CheckPackagePlugin" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+      <source-file src="src/android/com/kbaylonh/CheckPackagePlugin.java" target-dir="src/com/kbaylonh/" />
+    </platform>
+</plugin>
